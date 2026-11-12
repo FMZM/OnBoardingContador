@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitRoutine</string>
+
+    <string name="onboarding_title_1">Entrena en cualquier lugar</string>
+    <string name="onboarding_desc_1">En casa, en el parque o en el gimnasio: tus rutinas te acompañan a donde vayas, sin necesidad de equipo especial.</string>
+
+    <string name="onboarding_title_2">Planes personalizados</string>
+    <string name="onboarding_desc_2">Elige tu objetivo y tu nivel, y recibe rutinas adaptadas a tu tiempo y a tu ritmo.</string>
+
+    <string name="onboarding_title_3">Mide tu progreso</string>
+    <string name="onboarding_desc_3">Registra tus series y repeticiones, y mira cómo mejoras semana tras semana.</string>
+
+    <string name="onboarding_start">Empezar ahora</string>
+
+    <string name="home_ready">¡Listo para sudar!</string>
+    <string name="counter_series">Series</string>
+    <string name="counter_reps">Repeticiones</string>
+    <string name="restore">Restaurar</string>
+    <string name="back_to_onboarding">Volver al onboarding</string>
+
+    <string name="cd_series_up">Aumentar series</string>
+    <string name="cd_series_down">Disminuir series</string>
+    <string name="cd_reps_up">Aumentar repeticiones</string>
+    <string name="cd_reps_down">Disminuir repeticiones</string>
+
+    <string name="error_saving">No se pudo guardar. Inténtalo de nuevo.</string>
+</resources>

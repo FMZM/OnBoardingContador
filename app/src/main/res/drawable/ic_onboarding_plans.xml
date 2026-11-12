@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ilustración 2: lista de rutina con checks y una mancuerna (planes personalizados) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Fondo circular -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M10,100 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0 Z" />
+
+    <!-- Tablilla -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,34 L140,34 L140,150 L60,150 Z"
+        android:strokeColor="#4A4C8F"
+        android:strokeWidth="5" />
+    <path
+        android:fillColor="#4A4C8F"
+        android:pathData="M84,26 L116,26 L116,42 L84,42 Z" />
+
+    <!-- Fila 1 -->
+    <path
+        android:pathData="M72,66 L78,72 L88,60"
+        android:strokeColor="#43A047"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4" />
+    <path
+        android:pathData="M98,66 L128,66"
+        android:strokeColor="#9FA8DA"
+        android:strokeLineCap="round"
+        android:strokeWidth="5" />
+
+    <!-- Fila 2 -->
+    <path
+        android:pathData="M72,92 L78,98 L88,86"
+        android:strokeColor="#43A047"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4" />
+    <path
+        android:pathData="M98,92 L128,92"
+        android:strokeColor="#9FA8DA"
+        android:strokeLineCap="round"
+        android:strokeWidth="5" />
+
+    <!-- Fila 3 (pendiente) -->
+    <path
+        android:pathData="M72,114 L88,114 L88,130 L72,130 Z"
+        android:strokeColor="#9FA8DA"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3" />
+    <path
+        android:pathData="M98,122 L128,122"
+        android:strokeColor="#9FA8DA"
+        android:strokeLineCap="round"
+        android:strokeWidth="5" />
+
+    <!-- Mancuerna -->
+    <path
+        android:pathData="M76,176 L124,176"
+        android:strokeColor="#455A64"
+        android:strokeLineCap="round"
+        android:strokeWidth="6" />
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M68,162 L76,162 L76,190 L68,190 Z" />
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M124,162 L132,162 L132,190 L124,190 Z" />
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M60,167 L67,167 L67,185 L60,185 Z" />
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M133,167 L140,167 L140,185 L133,185 Z" />
+</vector>

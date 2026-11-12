@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ilustración 3: gráfica de barras ascendente con flecha y estrella (mide tu progreso) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Fondo circular -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M10,100 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0 Z" />
+
+    <!-- Línea base -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M35,152 L165,152 L165,158 L35,158 Z" />
+
+    <!-- Barras -->
+    <path
+        android:fillColor="#9FA8DA"
+        android:pathData="M45,150 L65,150 L65,122 L45,122 Z" />
+    <path
+        android:fillColor="#7986CB"
+        android:pathData="M75,150 L95,150 L95,102 L75,102 Z" />
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M105,150 L125,150 L125,82 L105,82 Z" />
+    <path
+        android:fillColor="#4A4C8F"
+        android:pathData="M135,150 L155,150 L155,62 L135,62 Z" />
+
+    <!-- Flecha de tendencia -->
+    <path
+        android:pathData="M42,104 L80,82 L110,92 L150,42"
+        android:strokeColor="#FF7043"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="5" />
+    <path
+        android:pathData="M150,42 L132,44 M150,42 L147,60"
+        android:strokeColor="#FF7043"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="5" />
+
+    <!-- Estrella -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M45,40 L50,53 L64,54 L53,63 L57,77 L45,69 L33,77 L37,63 L26,54 L40,53 Z" />
+</vector>

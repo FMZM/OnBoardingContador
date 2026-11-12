@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ilustración 1: atleta en posición de salto con sol y pin de ubicación (entrena en cualquier lugar) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Fondo circular -->
+    <path
+        android:fillColor="#E8EAF6"
+        android:pathData="M10,100 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0 Z" />
+
+    <!-- Sol -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M146,40 a14,14 0 1,1 28,0 a14,14 0 1,1 -28,0 Z" />
+
+    <!-- Pin de ubicación -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M45,78 C36,78 30,85 30,93 C30,104 45,120 45,120 C45,120 60,104 60,93 C60,85 54,78 45,78 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,93 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0 Z" />
+
+    <!-- Tapete -->
+    <path
+        android:fillColor="#7986CB"
+        android:pathData="M45,168 L155,168 L155,176 L45,176 Z" />
+
+    <!-- Brazos -->
+    <path
+        android:pathData="M100,84 L66,58"
+        android:strokeColor="#4A4C8F"
+        android:strokeLineCap="round"
+        android:strokeWidth="9" />
+    <path
+        android:pathData="M100,84 L134,58"
+        android:strokeColor="#4A4C8F"
+        android:strokeLineCap="round"
+        android:strokeWidth="9" />
+
+    <!-- Piernas -->
+    <path
+        android:pathData="M100,116 L78,162"
+        android:strokeColor="#4A4C8F"
+        android:strokeLineCap="round"
+        android:strokeWidth="10" />
+    <path
+        android:pathData="M100,116 L122,162"
+        android:strokeColor="#4A4C8F"
+        android:strokeLineCap="round"
+        android:strokeWidth="10" />
+
+    <!-- Torso -->
+    <path
+        android:pathData="M100,80 L100,118"
+        android:strokeColor="#4A4C8F"
+        android:strokeLineCap="round"
+        android:strokeWidth="14" />
+
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M86,56 a14,14 0 1,1 28,0 a14,14 0 1,1 -28,0 Z" />
+</vector>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvReady"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/home_ready"
+        android:textColor="@color/text_primary"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Dos contadores: series y repeticiones -->
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/counter_blue"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/counter_series"
+                android:textColor="@color/counter_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvSeriesCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="0"
+                android:textColor="@color/counter_text"
+                android:textSize="44sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/btnSeriesUp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_counter_button"
+                android:contentDescription="@string/cd_series_up"
+                android:foreground="?attr/selectableItemBackground"
+                android:src="@drawable/ic_chevron_up" />
+
+            <ImageButton
+                android:id="@+id/btnSeriesDown"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_counter_button"
+                android:contentDescription="@string/cd_series_down"
+                android:foreground="?attr/selectableItemBackground"
+                android:src="@drawable/ic_chevron_down" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/counter_cyan"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/counter_reps"
+                android:textColor="@color/counter_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvRepsCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="0"
+                android:textColor="@color/counter_text"
+                android:textSize="44sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/btnRepsUp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_counter_button"
+                android:contentDescription="@string/cd_reps_up"
+                android:foreground="?attr/selectableItemBackground"
+                android:src="@drawable/ic_chevron_up" />
+
+            <ImageButton
+                android:id="@+id/btnRepsDown"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_counter_button"
+                android:contentDescription="@string/cd_reps_down"
+                android:foreground="?attr/selectableItemBackground"
+                android:src="@drawable/ic_chevron_down" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/restore"
+        android:textStyle="bold"
+        app:cornerRadius="22dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBackToOnboarding"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/back_to_onboarding"
+        android:textSize="13sp" />
+
+</LinearLayout>
